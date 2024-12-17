@@ -63,6 +63,7 @@ Result.Text = iResult.ToString(); // .ToString() เเปลงกับเป�
 ```
 
 ## ปุ่มลบ
+```
 string inputNum1 = num1.Text;
 string inputNum2 = num2.Text;
 // convert str to double
@@ -70,7 +71,9 @@ double iNum1 = Double.Parse(inputNum1);
 double iNum2 = Double.Parse(inputNum2);
 double iResult = iNum1 - iNum2; 
 Result.Text = iResult.ToString();
+```
 ## ปุ่มคูณ
+```
 string inputNum1 = num1.Text;
 string inputNum2 = num2.Text;
 // convert str to double
@@ -78,7 +81,9 @@ double iNum1 = Double.Parse(inputNum1);
 double iNum2 = Double.Parse(inputNum2);
 double iResult = iNum1 * iNum2; 
 Result.Text = iResult.ToString();str
+```
 ## ปุ่มหาร
+```
 string inputNum1 = num1.Text;
 string inputNum2 = num2.Text;
 // convert str to double
@@ -86,7 +91,9 @@ double iNum1 = Double.Parse(inputNum1);
 double iNum2 = Double.Parse(inputNum2);
 double iResult = iNum1 / iNum2; 
 Result.Text = iResult.ToString();
+```
 ## ปุ่มลบข้อมูล
+```  
   private void button5_Click(object sender, EventArgs e)
   {
       // ล้างข้อความใน TextBox
@@ -94,3 +101,4 @@ Result.Text = iResult.ToString();
       num2.Text = "";
       Result.Text = ""; 
   }
+```
